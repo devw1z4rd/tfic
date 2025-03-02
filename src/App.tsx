@@ -527,7 +527,7 @@ const App: React.FC = () => {
   }, [processTextToBitmap, inputText])
 
   return (
-    <div className="flex flex-col items-center justify-center w-full min-h-screen p-4 sm:p-6 rounded-md" style={{ backgroundColor: THEME.background }}>
+    <div className="flex flex-col items-center justify-center w-full min-h-screen p-4 sm:p-6" style={{ backgroundColor: THEME.background }}>
       <Header showBinaryView={showBinaryView} toggleBinaryView={toggleBinaryView} setShowWizard={setShowWizard} setWizardStep={setWizardStep} />
       <WizardModal showWizard={showWizard} setShowWizard={setShowWizard} wizardStep={wizardStep} setWizardStep={setWizardStep} />
       <div className="w-full max-w-6xl flex flex-col md:flex-row gap-6">
